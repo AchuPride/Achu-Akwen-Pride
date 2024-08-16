@@ -66,7 +66,6 @@
 
 .btn:hover {
     background-color: #000;
-    /* Change the background color on hover */
     color: #ffd700;
 }
 .maincontent{
@@ -175,18 +174,6 @@ select{
     border-radius: 50px;
     background-color: #d4d3d3;
     margin-right: 10px;
-}
-
-.header_tree
-    height: 80px;
-    width: 100%;
-    background-color: #1aba1a;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    padding: 0 20px;
-    color: white;
-    align-items: center;
 }
 
 .header_tree .search{
