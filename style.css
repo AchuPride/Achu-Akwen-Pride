@@ -16,6 +16,7 @@
     justify-content: space-between;
     top: 0px;
     padding: 10px 20px;
+    background-color: var(--white);
 }
 
 .nav-list {
@@ -76,9 +77,11 @@
 
 /*style.css*/
 .login {
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
@@ -88,13 +91,24 @@
 }
 
 .main {
+    display: flex;
+    justify-content: flex-end;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
-    width: 50%;
+    width: 80%;
     text-align: center;
+    align-items: center;
+    padding-right: 10%;
+    
+}
+.sr{
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 15%;
 }
 
 h1 {
